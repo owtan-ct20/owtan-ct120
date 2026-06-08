@@ -250,7 +250,7 @@ function doRace(){
   }
   console.log(scene, racePosition)
   
-  if(turnCount > 1){
+  if(turnCount > 25){
     raceOver = true;
   }
 }
